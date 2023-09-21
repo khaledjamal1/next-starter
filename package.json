@@ -11,7 +11,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "prepack": "husky install"
   },
   "dependencies": {
     "@types/node": "20.6.3",
@@ -35,6 +36,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^8.0.3",
     "prettier": "2.4.0"
   }
 }
